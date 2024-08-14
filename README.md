@@ -1,7 +1,4 @@
-
-# Project Title
-
-Fraud detection solution using AI and machine learning
+# Fraud detection solution using AI and machine learning
 
 The goal of this project is to develop a robust fraud detection system that can accurately identify fraudulent transactions . The system leverages machine learning and deep learning techniques to achieve high performance, especially in the context of imbalanced datasets typical in fraud detection scenarios.
 
@@ -29,7 +26,7 @@ Target Variable: isFraud (binary indicator: 1 for fraud, 0 for non-fraud)
 
 **Label Distribution**
 
-![label_distribution](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![label_distribution](images/distribution_labels.png)
 
 
 - The distribution is highly imbalanced, with a significantly larger number of non-fraud transactions (represented by "0" on the x-axis) compared to fraud transactions (represented by "1"). This imbalance is a common challenge in fraud detection datasets.
@@ -49,7 +46,7 @@ Target Variable: isFraud (binary indicator: 1 for fraud, 0 for non-fraud)
 | Macro Avg | 0.91   | 0.65   | 0.71     | 118108  |
 | Weighted Avg | 0.97 | 0.97  | 0.97     | 118108  |
 
-![logistic_roc](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![logistic_roc](images/lr_roc.png)
 
 Logistic Regression ROC AUC: 0.8742852391082819
 
@@ -64,7 +61,7 @@ Logistic Regression ROC AUC: 0.8742852391082819
 | Macro Avg | 0.97   | 0.70   | 0.78     | 118108  |
 | Weighted Avg | 0.98 | 0.98  | 0.97     | 118108  |
 
-![randomforest_roc](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![randomforest_roc](images/rf_roc.png)
 
 Random Forest ROC AUC: 0.9309374755522329
 
@@ -80,7 +77,7 @@ Random Forest ROC AUC: 0.9309374755522329
 | Weighted Avg | 0.97 | 0.98  | 0.97     | 118108  |
 
 
-![xgboost_roc](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![xgboost_roc](images/xg_roc.png)
 
 XGBoost ROC AUC: 0.9077410697552437
 
@@ -96,9 +93,10 @@ XGBoost ROC AUC: 0.9077410697552437
 | Weighted Avg | 0.98 | 0.98  | 0.98     | 118108  |
 
 
-![xgboost_roc](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![xgboost_roc](images/dl_roc.png)
 
 Deep Learning Model ROC AUC: 0.9246724613055639
+
 ## Conclusion
 
 The deep learning  model achieved an AUC of 0.92 and F1-score of 0.82 , demonstrating strong performance in detecting fraudulent transactions.
